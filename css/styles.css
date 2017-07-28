@@ -1,0 +1,230 @@
+body {
+    font-family: 'Abril Fatface', cursive;
+   margin:0;
+}
+
+/** Start of nav css **/
+.main-nav {
+   background:#ccc;
+   padding:10px;
+   height:80px;
+}
+
+.logo {
+   height:100%;
+}
+
+.nav-list{
+   float:right;
+   list-style: none;
+   margin:25px 0px;
+}
+
+.nav-item {
+   float:left;
+   list-style:none;
+   margin-left:15px;
+   
+}
+
+.nav-link {
+   text-decoration: none;
+   color:#fff;
+}
+
+.nav-link:hover {
+   text-decoration:underline;
+   color:red;
+}
+
+/**end of nav css **/
+
+/** start of hero css **/
+
+.hero-section {
+   background-image:url("../images/ice cream.jpg");
+   height:400px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+.brand.name{
+    margin:0;
+    text-align: center;
+    color:#fff;
+    padding-top: 200px;
+     font-size: 36px;
+}
+
+.brand-backgrounod {
+    background-color: rgba(0,0,0, .5);
+    padding:200px;
+}
+
+/*** End of hero css ***/
+
+/*** Start of columns css ***/
+
+.info-columns {
+    padding:15px;
+}
+.info-columns::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.column {
+    width: 30%;
+    float:left;
+    border:1px solid #000;
+}
+
+.column-image{
+    height:275px;
+    width:100%;
+}
+.column-button{
+    padding: 6px 12px;
+    border-radius:8px;
+    border: none;
+    background: #ffe135;
+}
+/*** End of column section styles ***/
+
+/*** Desription Section Styles ***/
+.sprinkles-container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.description-column{
+    width: 50%;
+    float: left;
+}
+
+.description-image{
+    width:100;
+    height:300;
+}
+
+.desription-background{
+    background: red;
+    height: 300px;
+}
+/*** End Desription Section Styles***/
+
+/***Start footer styles ***/
+
+.footer-container {
+    height: 50px;
+    padding: 15px;
+    border: 1px solid #000;
+    clear: both;
+}
+
+.social-media-container{
+    width:15%;
+}
+
+.socail-media-container .fa {
+    font-size: 18px;
+    color: blue;
+    margin-left: 15%;
+}
+
+.contact-container{
+    width: 70%;
+    text-align: center;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float: right;
+}
+
+.copyright {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.contact-info {
+    display: inline-block;
+    text-align: center;
+}
+/***End footer styles ***/
+
+/*** Contact Page Styles***/
+.form-container {
+    width: 50%;
+    padding: 25px 25px 0px 25px;
+    margin: 0 auto;
+    background: rgba(210, 210, 155, .65);
+}
+
+.contact-page{
+    height: initial;
+    padding-bottom: 25px;
+}
+
+.contact-header {
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+/*** End Contact Page Styles***/
+
+
+.icecream-animate {
+  width:100%;
+  height:200px;
+  background-color:pink;
+}
+
+.spin-cone {
+   height:100px;
+   position:absolute;
+   top: 22%;
+   left:45%;
+}
+
+.spin-cone:hover {
+   transition: width 2s, height 2s, transform 2s;
+   transform: rotate(360deg);
+   
+   
+}
+
+/**Start of Bio css **/
+
+.bio {
+   width:100%;
+   height:575px;
+   padding:15px;
+   background-color:#18aac3 ;
+}
+
+.bio-content {
+   width:47.5%;
+   float:left;
+   
+   
+}
+
+.graduation {
+   height:80%;
+   width:80%;
+   
+}
+
+.my-info {
+   font-weight:bold;
+   font-size:32px;
+}
+
+/**end of bio css **/
